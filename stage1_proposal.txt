@@ -1,0 +1,16 @@
+// ====================
+// Assginment 1
+// Stanley Nguyen
+// Humber College
+// CPAN
+// [teacher name]
+// July 10, 2026
+// --------------------
+// Assignment 1 Stage 1, write a proposal of a topic for your react application
+// ====================
+// Propose a topic for your react application and explain in 1 paragraph what the purpose of this applicaion is. 
+// You can include this as a document alongside the project files. 
+
+// This application will provide information to the user through different components
+
+// Your app should have a minimum of five(5) components, and it is up to you if you want to utilize the functional component or class component. 
