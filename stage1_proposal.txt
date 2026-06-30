@@ -14,3 +14,13 @@
 // This application will provide information to the user through different components
 
 // Your app should have a minimum of five(5) components, and it is up to you if you want to utilize the functional component or class component. 
+
+- The topic/theme of my react application is a food menu app, concept was drawn from similar concepts to restaurants digital menus kiosk, restaurant web page menu, as well as online food delivery apps. 
+- This application help users browse food items in an organized and user-friendly way. 
+- Components I plan to utilize is - Header (contains web title, shopping cart), category filter, shopping cart, menu items (individual food items), and menu list (contains an array of information for food items)
+- The header displays the title of the web application and has a small shopping cart indicator showing how many items the user has selected. 
+- This menu app has a category filter to organize and categorize menu items base on type (such as appetizer, sides, desserts, main, drinks, lunch, dinner)
+- Menu iten displays each item individually with its description along with a button for if a user wants to add items to the cart (such as vegan burger, fried chicken burger, vanilla ice cream)
+- Menu list displays all available food items to the user. Each food item shows its name, category, and price. This helps user browse the menu and choose what they want to order. 
+- The shopping cart counter updates when user adds or removes items, displays how many items the user have selected. 
+- The purpose of this application is to provide a clean and simple menu browsing experience similar to what you find in a restaurant or cafe ordering system. 
