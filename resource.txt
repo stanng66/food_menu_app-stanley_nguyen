@@ -1,0 +1,14 @@
+// ====================
+// Assginment 1
+// Stanley Nguyen
+// Humber College
+// CPAN
+// [teacher name]
+// July 10, 2026
+// --------------------
+// websites and resources I found to help create my application
+// ====================
+
+1. writing css inside a javascript file: https://www.geeksforgeeks.org/javascript/how-to-include-css-inside-a-javascript-file/
+2. Filter elements: https://www.w3schools.com/howto/howto_js_filter_elements.asp
+3. 
