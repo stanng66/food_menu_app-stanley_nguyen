@@ -15,9 +15,6 @@ export default function CategoryFilter({ categories, selectedCategory, setSelect
             {categories.map((categoryType) => (
                 <button key={categoryType}
                    onClick={() => setSelectedCategory(categoryType)}
-                   style={{   // css styling the button, could move this to its own css file.
-
-                   }}
                 >
                     {categoryType}
                 </button>   

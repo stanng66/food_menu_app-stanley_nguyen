@@ -11,9 +11,7 @@
 
 export default function MenuItem({ foodItem, addToCart }) {
     return (
-        <div style={{   // css styling within the js, or make a css file seperately for this js file
-
-        }}>
+        <div className="menu-item">
             <h3> {foodItem.name} </h3>
             <p> Category: {foodItem.category} </p>
             <p> Price: ${foodItem.price.toFixed(2)} </p>
