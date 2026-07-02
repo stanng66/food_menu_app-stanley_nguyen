@@ -9,7 +9,7 @@
 // menuList.js renders a list of menuItem components
 // ====================
 
-import MenuItem from "./menuItem";
+import MenuItem from "./src/menuItem";
 
 export default function MenuList({ items, addToCart }) {
     return (
