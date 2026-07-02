@@ -9,7 +9,7 @@
 // menuItem.js displays a single food item and adds item to cart button
 // ====================
 
-export default function menuItem({ foodItem, addToCart }) {
+export default function MenuItem({ foodItem, addToCart }) {
     return (
         <div style={{   // css styling within the js, or make a css file seperately for this js file
 
