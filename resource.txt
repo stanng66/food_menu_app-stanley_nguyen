@@ -2,8 +2,8 @@
 // Assginment 1
 // Stanley Nguyen
 // Humber College
-// CPAN
-// [teacher name]
+// CPAN-144-RNA
+// Ronak Sheth
 // July 10, 2026
 // --------------------
 // websites and resources I found to help create my application

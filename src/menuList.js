@@ -2,8 +2,8 @@
 // Assignment 1
 // Stanley Nguyen
 // Humber College
-// CPAN 
-// Ronak 
+// CPAN-144-RNA
+// Ronak Sheth
 // July 10, 2026
 // --------------------
 // menuList.js renders a list of menuItem components

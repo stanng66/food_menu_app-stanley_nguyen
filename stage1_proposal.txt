@@ -2,8 +2,8 @@
 // Assginment 1
 // Stanley Nguyen
 // Humber College
-// CPAN
-// [teacher name]
+// CPAN-144-RNA
+// Ronak Sheth
 // July 10, 2026
 // --------------------
 // Assignment 1 Stage 1, write a proposal of a topic for your react application

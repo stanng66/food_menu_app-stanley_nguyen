@@ -2,8 +2,8 @@
 // Assignment 1
 // Stanley Nguyen
 // Humber College
-// CPAN 
-// Ronak 
+// CPAN-144-RNA
+// Ronak Sheth
 // July 10, 2026
 // --------------------
 // header.js displays the tile and displays cart item count
