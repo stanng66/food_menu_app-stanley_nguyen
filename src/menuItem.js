@@ -12,12 +12,22 @@
 export default function MenuItem({ foodItem, addToCart }) {
     return (
         <div className="menu-item">
-            <img src={`/images/${foodItem.image}`} alt={foodItem.name} className="food-image" />
             
-            <h3> {foodItem.name} </h3>
-            <p> Category: {foodItem.category} </p>
-            <p> Price: ${foodItem.price.toFixed(2)} </p>
-            <button onClick={() => addToCart(foodItem)} style={{ padding: "8px 12px" }}> Add to Cart </button>
+            <div className="food-info">
+                <div className="food-header">
+                    <span className="food-name">{foodItem.name}</span>
+                    <span className="food-category">{foodItem.category}</span>
+                    <span className="food-price">${foodItem.price.toFixed(2)}</span>
+                </div>
+
+                <p className="food-description">{foodItem.description}</p>
+
+                <button onClick={() => addToCart(foodItem)} style={{ padding: "8px 12px" }}> Add to Cart </button>
+            </div>
+
+            <div className="food-image">
+                <img src={`/images/${foodItem.image}`} alt={foodItem.name} />
+            </div>
         </div>
     );
 }
