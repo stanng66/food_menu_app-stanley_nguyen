@@ -16,7 +16,7 @@ export default function MenuItem({ foodItem, addToCart }) {
             <div className="food-info">
                 <div className="food-header">
                     <span className="food-name">{foodItem.name}</span>
-                    <span className="food-category">{foodItem.category}</span>
+                    <span className="food-category">{foodItem.category}</span> 
                     <span className="food-price">${foodItem.price.toFixed(2)}</span>
                 </div>
 
