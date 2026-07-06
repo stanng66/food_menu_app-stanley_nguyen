@@ -71,13 +71,31 @@ App.css managres web page styling and layout
     --clr-border: #dddddd
 }
 
+/* ==================== */
+/* Header*/
+/* ==================== */
 .app-header {
   background-color: var(--clr-bg-main);
   padding: 20px;
   border-bottom: 2px solid var(--clr-border);
-
 }
 
+.header-title {
+  text-align: center;
+}
+
+.header-title h1, .header-title h2, .header-title h3 {
+  margin: 5px 0;
+}
+
+.header-cart {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ==================== */
+/* Menu Items */
+/* ==================== */
 .menu-item {
   border: 1px solid var(--clr-border);
   padding: 16px;
@@ -93,12 +111,19 @@ App.css managres web page styling and layout
   max-height: 150px;
 }
 
+/* ==================== */
+/* Menu List */
+/* ==================== */
 .menu-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
+
+/* ==================== */
+/* Images */
+/* ==================== */
 .food-image {
     width: 150px;
     height: 150px;
