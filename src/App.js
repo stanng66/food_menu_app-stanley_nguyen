@@ -14,6 +14,7 @@ import Header from "./header";
 import CategoryFilter from "./categoryFilter";
 import MenuList from "./menuList";
 import "./App.css";
+import Footer from "./footer";
 
 function App() {
 
@@ -43,15 +44,23 @@ function App() {
     setCartCount(cartCount + 1);
   }
 
+  const clearCartItems = () => {
+    setCartCount(0);
+  }
+
   return (
-    <div>
-      <Header cartCount={cartCount} />
+    <div className="app-container">
+      <Header cartCount={cartCount} clearCartItems={clearCartItems} />
+
       <CategoryFilter
         categories={categories}
         selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}
-        />
-        <MenuList items={filteredItems} addToCart={addToCart} />
+      />
+
+      <MenuList items={filteredItems} addToCart={addToCart} />
+
+      <Footer />
     </div>
   );
 }

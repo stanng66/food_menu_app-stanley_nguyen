@@ -8,7 +8,7 @@
 // --------------------
 // header.js displays the tile and displays cart item count
 // ====================
-export default function Header({cartCount}) {
+export default function Header({cartCount, clearCartItems}) {
     return (
         <header className="app-header">
             <div className="header-title">
@@ -18,8 +18,8 @@ export default function Header({cartCount}) {
             </div> 
 
             <div className="header-cart">
-            {/*<p> Cart: {cartCount} items </p> */}  {/* Shows number of items in the cart */}
-            <p><i className="fa-solid fa-cart-shopping"></i> {cartCount} items</p>
+               <p><i className="fa-solid fa-cart-shopping"></i> {cartCount} items</p> 
+                <button className="clear-cart-button" onClick={clearCartItems}> Clear Cart </button>
             </div>
 
         </header>

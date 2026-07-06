@@ -11,11 +11,10 @@
 
 export default function CategoryFilter({ categories, selectedCategory, setSelectedCategory}) {   // function({}) uses {} to recieve props for react
     return (
-        <div style={{margin: "20px"}}>
+        <div className="category-buttons">
             {categories.map((categoryType) => (
                 <button key={categoryType}
-                   onClick={() => setSelectedCategory(categoryType)}
-                >
+                   onClick={() => setSelectedCategory(categoryType)}>
                     {categoryType}
                 </button>   
             ))}
