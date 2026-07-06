@@ -13,7 +13,7 @@ import MenuItem from "./menuItem";
 
 export default function MenuList({ items, addToCart }) {
     return (
-        <div >
+        <div className="menu-list">
             {items.map((itemContent) => (
                 <MenuItem key={itemContent.id} foodItem={itemContent} addToCart={addToCart} />
             ))}
