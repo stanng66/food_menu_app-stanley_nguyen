@@ -89,6 +89,11 @@ App.css managres web page styling and layout
   margin: 5px 0;
 }
 
+h2 {
+  margin: 5px 0;
+  color: var(--clr-primary);
+}
+
 .header-cart {
   display: flex;
   justify-content: flex-end;
