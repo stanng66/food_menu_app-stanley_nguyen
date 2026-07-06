@@ -84,3 +84,10 @@ App.css managres web page styling and layout
   border-radius: var(--radius-md);
 }
 
+.food-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

@@ -12,6 +12,8 @@
 export default function MenuItem({ foodItem, addToCart }) {
     return (
         <div className="menu-item">
+            <img src={`/images/${foodItem.image}`} alt={foodItem.name} className="food-image" />
+            
             <h3> {foodItem.name} </h3>
             <p> Category: {foodItem.category} </p>
             <p> Price: ${foodItem.price.toFixed(2)} </p>
