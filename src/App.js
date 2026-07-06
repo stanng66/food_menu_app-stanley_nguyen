@@ -6,9 +6,8 @@
 // Ronak Sheth
 // July 10, 2026
 // --------------------
-// app.js 
+// app.js is a parent component that renders the header, category filter, menu list, and footer components
 // ====================
-
 import {useState} from "react";
 import Header from "./header";
 import CategoryFilter from "./categoryFilter";
@@ -35,6 +34,7 @@ function App() {
 
   const categories = ["All", "Appetizer", "Main Course", "Desserts", "Drinks"];
   
+  // Assignment requirement - One component must utilize the state feature or useState Hook. You should have a minimum of 2 state variables in your application. These variables can be in any of the components.
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [cartCount, setCartCount] = useState(0);
 

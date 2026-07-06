@@ -8,6 +8,7 @@
 // --------------------
 // header.js displays the tile and displays cart item count
 // ====================
+// Assignment requirement - One of three component that recieves props from the parent component (App.js). 
 export default function Header({cartCount, clearCartItems}) {
     return (
         <header className="app-header">

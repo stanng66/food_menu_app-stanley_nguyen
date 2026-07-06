@@ -8,7 +8,7 @@
 // --------------------
 // categoryFilter.js lets the user choose a category through a filter button
 // ====================
-
+// Assignment requirement - One of three component that recieves props from the parent component (App.js). 
 export default function CategoryFilter({ categories, selectedCategory, setSelectedCategory}) {   // function({}) uses {} to recieve props for react
     return (
         <div className="category-buttons">
