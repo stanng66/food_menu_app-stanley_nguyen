@@ -11,9 +11,8 @@
 // Assignment requirement - One of three component that recieves props from the parent component (App.js). 
 import MenuItem from "./menuItem";
 
-export default function MenuList({ items, addToCart, selectedCategory }) {
+export default function MenuList({ items, addToCart, selectedCategory, categoryMap }) {
 
-    // ⭐ CASE 1: User selected a specific category → show only that category
     if (selectedCategory !== "All") {
         return (
             <div className="menu-list">
@@ -26,13 +25,12 @@ export default function MenuList({ items, addToCart, selectedCategory }) {
         );
     }
 
-    // ⭐ CASE 2: User selected "All" → show grouped menu
     const foodCategories = ["Appetizer", "Main Course", "Desserts", "Drinks"];
 
     return (
         <div>
             {foodCategories.map(category => {
-                const categoryItems = items.filter(item => item.category === category);
+                const categoryItems = items.filter(item => categoryMap[category].includes(item.id));
 
                 if (categoryItems.length === 0) return null;
 
