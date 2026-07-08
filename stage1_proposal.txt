@@ -17,5 +17,4 @@
 - This menu app has a category filter to organize and categorize menu items base on type (such as appetizer, desserts, main course, drinks)
 - Menu item displays each item individually with its description along with a button for if a user wants to add items to the cart (such as vegan burger, fried chicken burger, vanilla ice cream).
 - The menu list displays all available food items to the user. Each food item shows its name, category, and price. This helps users browse the menu and choose what they want to order. 
-- The shopping cart counter updates when user adds or removes items, displays how many items the user have selected. 
 - The shopping cart counter updates when a user adds or removes items, displaying how many items the user has selected. 
